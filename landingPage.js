@@ -14,7 +14,7 @@ if(localStorage.getItem("data"))
     console.log("S");
     // historyTag.setAttribute("href","../history/history.html");
     //document.querySelector('a').setAttribute("href", "../history/history.html");
-    window.location.href = "../history/history.html";
+    window.location.href = "../history.html";
 }
 
 
@@ -31,8 +31,8 @@ async function SearchBooks(e)
   if(localStorage.getItem("data") || id>=1)
     {
         console.log("S");
-        // historyTag.setAttribute("href","../history/history.html");
-        document.querySelector('a').setAttribute("href", "../history/history.html");
+        // historyTag.setAttribute("href","../history.html");
+        document.querySelector('a').setAttribute("href", "../history.html");
         //window.location.href = "../history/history.html";
     }
     else

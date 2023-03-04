@@ -56,5 +56,5 @@ function clearData()
     localStorage.clear();
     historyName.innerHTML="";
 
-    window.location.href="../landingPage/landingPage.html"
+    window.location.href="../index.html"
 }

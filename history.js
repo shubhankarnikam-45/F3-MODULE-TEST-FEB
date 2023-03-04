@@ -9,7 +9,7 @@ if(data){
         item=item.map((ite,i)=>{
             console.log(i+1+ite[i+1])
             return `
-            <a  href="../searched.html"  onclick=" return fun(${i})">
+            <a  href="./searched.html"  onclick=" return fun(${i})">
                 <div id="flex-box" col-12 style="color:white; border:1px solid white; padding:32px">
                     <span><b>${(i+1)+". "+ite[i+1] }</b></span>
                     <span><b>Search On: ${ite["Searched On"] }</b></span>
@@ -56,5 +56,5 @@ function clearData()
     localStorage.clear();
     historyName.innerHTML="";
 
-    window.location.href="../index.html"
+    window.location.href="./index.html"
 }

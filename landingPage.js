@@ -9,13 +9,13 @@ const arr=[];
 
 
 //if localStorage is not empty then it redirec to the history.html page
-if(localStorage.getItem("data"))
-{
-    console.log("S");
-    // historyTag.setAttribute("href","../history/history.html");
-    //document.querySelector('a').setAttribute("href", "../history/history.html");
-    window.location.href = "../history.html";
-}
+// if(localStorage.getItem("data"))
+// {
+//     console.log("S");
+//     // historyTag.setAttribute("href","../history/history.html");
+//     //document.querySelector('a').setAttribute("href", "../history/history.html");
+//     window.location.href = "../history.html";
+// }
 
 
 
